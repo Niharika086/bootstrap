@@ -1,0 +1,22 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.top-bar{
+    background-color: darkred;
+    color: white;
+    padding: 12px;
+}
+.btn1{
+    width:auto;
+    font-size: 15px;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+ic{
+    height: 40px;
+    width: 40px;
+    border: 2px dotted orange;
+}
