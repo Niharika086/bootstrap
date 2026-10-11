@@ -35,3 +35,13 @@ body{
     margin: 0px;
     font-weight: 400;
 }
+.logo-ins{
+    margin-top: 20px;
+}
+.ins-logo{
+    padding-left: 130px;
+}
+.ins-n{
+    color: darkred;
+    font-weight: 700;
+}
