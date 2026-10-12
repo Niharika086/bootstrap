@@ -45,3 +45,44 @@ body{
     color: darkred;
     font-weight: 700;
 }
+
+.menu {
+    background-color: darkred;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.menu-o div {
+    flex-shrink: 0;
+}
+
+.menu-o a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-left: 1px solid white;
+    padding: 5px 10px;
+    display: block;
+    white-space: nowrap;
+}
+
+.menu-o div:first-child a {
+    border-left: none;
+}
+
+/* .menu.row {
+    margin-left: 0;
+    margin-right: 0;
+} */
