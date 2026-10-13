@@ -45,44 +45,50 @@ body{
     color: darkred;
     font-weight: 700;
 }
+.ins-name hr{
+    width: 80%;
+}
 
-.menu {
+.navbar{
     background-color: darkred;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.menu-o {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    padding: 0;
+.bg img{
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
 }
 
-.menu-o div {
-    flex-shrink: 0;
-}
-
-.menu-o a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    border-left: 1px solid white;
-    padding: 5px 10px;
-    display: block;
+.announcement {
+    overflow: hidden;
     white-space: nowrap;
+    padding: 10px;
+    width: 100%;
 }
 
-.menu-o div:first-child a {
-    border-left: none;
+.announcement-text {
+    display: inline-block;
+    animation: scroll-left 25s linear infinite;
+    text-decoration: none !important;
+    border-bottom: none;
+    width: 70%;
 }
 
-/* .menu.row {
-    margin-left: 0;
-    margin-right: 0;
-} */
+@keyframes scroll-left {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.announ{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+}
+.iname div{
+    color: darkred;
+    font-size: 20px;
+    font-weight: 700;
+}

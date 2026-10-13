@@ -1,0 +1,173 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.top-bar{
+    background-color: darkred;
+    color: white;
+    padding: 12px;
+}
+.btn1{
+    width:auto;
+    font-size: 15px;
+}
+.icons{
+    height:40px;
+    width: 40px;
+    margin-left: 20px;
+}
+.ic{
+    height:40px;
+    width: 40px;
+    border: 2px dotted white;
+    margin-left: 10px;
+    border-radius: 100%;
+    padding: 6px;
+    padding-left: 9px;
+}
+.ic:first-child{
+    margin-left: 0px;
+}
+.ic:last-child{
+    border: none;
+    height: 25px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+.logo-ins{
+    margin-top: 20px;
+}
+.ins-logo{
+    padding-left: 130px;
+}
+.ins-n{
+    color: darkred;
+    font-weight: 700;
+}
+
+.menu {
+    background-color: darkred;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.menu-o div {
+    flex-shrink: 0;
+}
+
+.menu-o a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-left: 1px solid white;
+    padding: 5px 10px;
+    display: block;
+    white-space: nowrap;
+}
+
+.menu-o div:first-child a {
+    border-left: none;
+}
+
+
+.college-slider {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-image {
+    height: 570px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.slider-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.slider-overlay {
+    position: relative;
+    z-index: 1;
+
+    width: 65%;
+    max-width: 900px;
+    padding: 25px 30px;
+
+    text-align: center;
+    color: white;
+
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 8px;
+}
+
+.slider-overlay h2 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.slider-overlay p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.college-slider .carousel-control-prev,
+.college-slider .carousel-control-next {
+    width: 8%;
+    z-index: 2;
+}
+
+.college-slider .carousel-indicators {
+    z-index: 3;
+}
+
+.announcement {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.announcement-text {
+    display: inline-block;
+    animation: scroll-left 25s linear infinite;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.announ{
+    background-color: darkred;
+    color: white;
+    
+}
