@@ -1,0 +1,128 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.top-bar{
+    background-color: darkred;
+    color: white;
+    padding: 12px;
+}
+.btn1{
+    width:auto;
+    font-size: 15px;
+}
+.icons{
+    height:40px;
+    width: 40px;
+    margin-left: 20px;
+}
+.ic{
+    height:40px;
+    width: 40px;
+    border: 2px dotted white;
+    margin-left: 10px;
+    border-radius: 100%;
+    padding: 6px;
+    padding-left: 9px;
+}
+.ic:first-child{
+    margin-left: 0px;
+}
+.ic:last-child{
+    border: none;
+    height: 25px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+.logo-ins{
+    margin-top: 20px;
+}
+.ins-logo{
+    padding-left: 130px;
+}
+.ins-n{
+    color: darkred;
+    font-weight: 700;
+}
+.ins-name hr{
+    width: 80%;
+}
+
+.navbar{
+    background-color: darkred;
+}
+
+.bg img{
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.announcement {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    width: 100%;
+}
+
+.announcement-text {
+    display: inline-block;
+    animation: scroll-left 25s linear infinite;
+    text-decoration: none !important;
+    border-bottom: none;
+    width: 70%;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.announ{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+}
+.iname div{
+    color: darkred;
+    font-size: 20px;
+    font-weight: 700;
+}
+.mentor{
+    background-color: darkred;
+    align-items: center;
+}
+.mentor h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    margin-top: 50px;
+}
+.mentor h1 hr{
+    width: 90px;
+    
+}
+.title{
+    color: darkred;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card{
+    align-items: center;
+}
+.card img{
+    border: 5px solid darkred;
+    border-radius: 100%;
+}
+.card-body hr{
+    width: 50px;
+
+}
+.director{
+    border: 1px solid rgb(171, 171, 171);
+}
