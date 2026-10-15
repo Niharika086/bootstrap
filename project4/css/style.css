@@ -4,7 +4,6 @@ body{
 .top-bar{
     background-color: darkred;
     color: white;
-    padding: 12px;
 }
 .btn1{
     width:auto;
@@ -35,120 +34,54 @@ body{
     margin: 0px;
     font-weight: 400;
 }
-.logo-ins{
-    margin-top: 20px;
-}
 .ins-logo{
-    padding-left: 130px;
+    padding-left: 90px;
 }
-.ins-n{
-    color: darkred;
-    font-weight: 700;
-}
-.ins-name hr{
-    width: 80%;
-}
-
-.navbar{
+.bg-color{
     background-color: darkred;
+    color: white;
+}
+.t-color{
+    color: darkred;
 }
 
+.ins-name hr{
+    width: 70%;
+}
 .bg img{
-    height: 500px;
+    height: 550px;
     object-fit: cover;
     object-position: center;
 }
-
-.announcement {
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 10px;
-    width: 100%;
-}
-
-.announcement-text {
-    display: inline-block;
-    animation: scroll-left 25s linear infinite;
-    text-decoration: none !important;
-    border-bottom: none;
-    width: 70%;
-}
-
-/* @keyframes scroll-left {
-    from {
-        transform: translateX(100vw);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-} */
-.announ{
-    background-color: darkred;
-    color: white;
-    text-decoration: none;
-}
-.iname div{
-    color: darkred;
-    font-size: 20px;
-    font-weight: 700;
-}
-.mentor{
-    background-color: darkred;
-    align-items: center;
-}
-.mentor h1{
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    align-items: center;
-    margin-top: 50px;
-}
-.mentor h1 hr{
-    width: 90px;
-    
-}
-.title{
-    color: rgb(139, 0, 0);
-    font-size: 20px;
-    font-weight: 700;
-}
-.card{
-    align-items: center;
-}
-.img-1{
-    border: 5px solid darkred;
+.imgb{
+    border:5px solid darkred;
     border-radius: 100%;
 }
-.card-body hr{
-    width: 50px;
+.mcard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-}
-.director{
-    border: 1px solid rgb(171, 171, 171);
-}
-.director h4{
-    color: darkred;
-    font-weight: 600;
-}
-.facility{
-    background-color: darkred;
-    color: white;
-    align-items: center;
-}
-.readmore{
-    background-color: darkred;
-    color: white;
-    text-decoration: none;
-    width: 200px;
-    height: 70px;
-    margin-top: 5px;
-}
-.course{
-    color: darkred;
-}
-.bg-red{
-    background-color: darkred;
+.mcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 .bg-yellow{
     background-color: rgb(255, 193, 7);
+}
+.notice-box {
+    height: 300px;
+    overflow: hidden;
+}
+
+.notice-box marquee {
+    height: 100%;
+    display: block;
+}
+
+.ncard {
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
 }
