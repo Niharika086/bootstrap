@@ -84,7 +84,22 @@ body{
 }
 a{
     text-decoration: none;
+    color: white;
 }
+.dsl a{
+    color: black;
+}
+.dsl a li:hover{
+    /* transform:matrix(1.5); */
+    transition: 1.5s;
+    background-color: rgba(214, 102, 102, 0.541);
+    color: darkred;
+}
+.dsl a li:hover{
+    transition: 1.5s;
+    margin-left: 3px;
+}
+
 .bg-book{
     background-image: linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.585)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaViNaCKGdg8_AtpXz7bUsQUBRyWlz5uMu0VeiMCTeyQ&s=10");
     height: 40vh;

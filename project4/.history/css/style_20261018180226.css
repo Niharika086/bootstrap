@@ -1,0 +1,107 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.top-bar{
+    background-color: darkred;
+    color: white;
+}
+.btn1{
+    width:auto;
+    font-size: 15px;
+}
+.icons{
+    height:40px;
+    width: 40px;
+    margin-left: 20px;
+}
+.ic{
+    height:40px;
+    width: 40px;
+    border: 2px dotted white;
+    margin-left: 10px;
+    border-radius: 100%;
+    padding: 6px;
+    padding-left: 9px;
+}
+.ic:first-child{
+    margin-left: 0px;
+}
+.ic:last-child{
+    border: none;
+    height: 25px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+.ins-logo{
+    padding-left: 90px;
+}
+.bg-color{
+    background-color: darkred;
+    color: white;
+}
+.t-color{
+    color: darkred;
+}
+
+.ins-name hr{
+    width: 70%;
+}
+.bg img{
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
+.imgb{
+    border:5px solid darkred;
+    border-radius: 100%;
+}
+.mcard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.bg-yellow{
+    background-color: rgb(255, 193, 7);
+}
+.notice-box {
+    height: 300px;
+    overflow: hidden;
+}
+
+.notice-box marquee {
+    height: 100%;
+    display: block;
+}
+
+.ncard {
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dsl a{
+    color: black;
+}
+.dsl a:hover{
+    background-color: darkred;
+}
+
+.bg-book{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.585)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaViNaCKGdg8_AtpXz7bUsQUBRyWlz5uMu0VeiMCTeyQ&s=10");
+    height: 40vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    margin-left: 90px;
+    margin-top: 100px;
+}
