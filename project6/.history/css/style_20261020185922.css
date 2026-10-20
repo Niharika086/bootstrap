@@ -1,0 +1,119 @@
+
+/* Header */
+.college-header {
+    background-color: #ffe5e4;
+}
+
+.college-logo {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+.college-title {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(1.1rem, 2vw, 1.7rem);
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 8px;
+    overflow-wrap: anywhere;
+}
+
+.college-subtitle {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(0.75rem, 1vw, 0.9rem);
+    line-height: 1.6;
+}
+
+/* Login links */
+.header-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.header-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #222;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.header-link img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.prospectus-link {
+    color: #222;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.prospectus-link:hover,
+.header-link:hover {
+    color: darkred;
+}
+
+/* Navbar */
+.college-navbar {
+    background-color: #ffe5e4;
+}
+
+.college-navbar .nav-link {
+    color: #292020;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 12px 15px;
+}
+
+.college-navbar .nav-link:hover,
+.college-navbar .nav-link.active {
+    color: darkred;
+}
+
+/* Mobile */
+@media (max-width: 991.98px) {
+    .college-logo {
+        max-width: 80px;
+    }
+
+    .college-title {
+        overflow-wrap: normal;
+    }
+
+    .college-navbar .navbar-collapse {
+        padding-top: 10px;
+    }
+
+    .college-navbar .nav-link {
+        padding: 10px 8px;
+    }
+
+    .college-navbar .navbar-nav {
+        width: 100%;
+    }
+}
+.social-bar{
+    position: fixed;
+    display: flex;
+    background-color: #ffe5e4;
+    color: black;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    width: 70px;
+    right: 0;
+    top:25%;
+    border: 2px solid #ffe5e4;
+    border-radius: 40px 0px 0px 4px;
+
+}
