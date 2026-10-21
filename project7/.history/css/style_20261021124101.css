@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bg-color{
+    background-color: black;
+    color: #db00ff;
+}
+.t-color{
+    color: #db00ff;
+}
+.iname{
+      font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+}
+.nItem{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.st-color{  
+    color: #00ff97;
+}
+.sbg-color{
+    background-color: #00ff97;
+}
+.tt-color{
+    color: #ff007a;
+}
+
+.nItem:hover{
+    color: #ff007a;
+    font-size: 22px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.name{
+    font-size: 55px;
+}
+.t-font{
+    font-family:"Tektur", sans-serif;
+}
+.gitlink{
+    height: 70px;
+    width: 150px;
+}
+.gitlink a{
+    font-size: 25px;
+    border: 2px solid;
+    text-decoration: none;
+}
+

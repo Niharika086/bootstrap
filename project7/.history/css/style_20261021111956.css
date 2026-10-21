@@ -1,0 +1,18 @@
+*{
+    background-color: black;
+}
+.bg-color{
+    background-color: black;
+    color: #db00ff;
+}
+.t-color{
+    color: #db00ff;
+}
+.iname{
+      font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+}
+nav a{
+    color: #db00ff;
+    gap: 30px;
+}

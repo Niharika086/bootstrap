@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+}
+.bg-color{
+    background-color: black;
+    color: #db00ff;
+}
+.t-color{
+    color: #db00ff;
+}
+.iname{
+      font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+}
+.nItem{
+    font-size: 30px;
+}
+.nitem a:hover{
+    color: #00ff98;
+
+}
