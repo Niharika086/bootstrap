@@ -17,11 +17,14 @@
     font-size: 25px;
     margin-right: 20px;
 }
+.bt-color{
+    color: #a29f9f;
+}
 .st-color{  
     color: #00ff97;
 }
 .sbg-color{
-    background-color: #00ff97;
+    background-color: #ff007a;
 }
 .tt-color{
     color: #ff007a;
@@ -49,4 +52,14 @@
     border: 2px solid;
     text-decoration: none;
 }
-
+.card a{
+    text-decoration: none;
+}
+input, textarea{
+    border: 2px solid #00ff97;
+    /* box-shadow: 5px; */
+}
+button{
+    border: 2px solid;
+    border-radius: 4px;
+}

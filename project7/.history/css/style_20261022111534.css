@@ -1,0 +1,65 @@
+*{
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bg-color{
+    background-color: black;
+    color: #db00ff;
+}
+.t-color{
+    color: #db00ff;
+}
+.iname{
+      font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+}
+.nItem{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.bt-color{
+    color: #a29f9f;
+}
+.st-color{  
+    color: #00ff97;
+}
+.sbg-color{
+    background-color: #ff007a;
+}
+.tt-color{
+    color: #ff007a;
+}
+
+.nItem:hover{
+    color: #ff007a;
+    font-size: 22px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.name{
+    font-size: 55px;
+}
+.t-font{
+    font-family:"Tektur", sans-serif;
+}
+.gitlink{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
+.gitlink a{
+    font-size: 20px;
+    border: 2px solid;
+    text-decoration: none;
+}
+.card a{
+    text-decoration: none;
+}
+input, textarea{
+    border: 2px solid #00ff97;
+    /* box-shadow: 5px; */
+}
+button{
+    border: 2px solid;
+    border-radius: ;
+}

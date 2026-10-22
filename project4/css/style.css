@@ -1,6 +1,17 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
 .top-bar{
     background-color: darkred;
     color: white;
@@ -127,4 +138,23 @@ a{
     background-color: darkred;
     color: white;
     transition: 0.5s;
+}
+.nav-item a{
+    font-size: 15px;
+}
+.dropdown-menu a:hover{
+    background-color: darkred;
+    color: white;
+}
+.b-box{
+    width: 500px;
+    border: 1px solid gray;
+    border-left: 3px solid darkred;
+}
+.b-box a{
+color: black;
+}
+.b-box a:hover{
+    color: darkred;
+    text-decoration: underline;
 }

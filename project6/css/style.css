@@ -3,6 +3,12 @@
 .college-header {
     background-color: #ffe5e4;
 }
+.bg-color{
+       background-color: #ffe5e4;
+}
+.t-color{
+    color: red;
+}
 
 .college-logo {
     width: 100%;
@@ -110,7 +116,7 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    width: 60px;
+    width: 50px;
     right: 0;
     top:45vh;
     border: 2px solid #ffe5e4;
@@ -120,7 +126,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    width: 45px;
     height: 50px;
     text-decoration: none;
 
