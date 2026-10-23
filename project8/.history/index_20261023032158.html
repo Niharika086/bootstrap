@@ -1,0 +1,156 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Layout</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- TOP NAVBAR -->
+  <nav class="navbar bg-white px-3 fixed-top top-navbar">
+
+    <!-- Sidebar toggle -->
+    <button class="btn border-0 me-3" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#sidebar"
+            aria-controls="sidebar"
+            aria-expanded="true"
+            aria-label="Toggle sidebar">
+      <i class="fa-solid fa-bars fs-5"></i>
+    </button>
+
+    <!-- YouTube logo -->
+    <a class="navbar-brand me-auto" href="#">
+      <img src="images/y1.png" alt="YouTube" height="35">
+    </a>
+
+    <!-- Search bar -->
+    <form class="search-form d-flex mx-auto" role="search">
+      <input class="form-control rounded-start-pill"
+             type="search"
+             placeholder="Search"
+             aria-label="Search">
+
+      <button class="btn btn-light border rounded-end-pill px-4"
+              type="submit" aria-label="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+
+    <!-- Right-side icons -->
+    <div class="d-flex align-items-center ms-auto gap-3">
+      <button class="btn btn-light rounded-pill">
+        <i class="fa-solid fa-plus"></i> Create
+      </button>
+      <i class="fa-regular fa-bell fs-5"></i>
+    </div>
+
+  </nav>
+
+
+  <!-- PAGE LAYOUT -->
+  <div class="d-flex page-layout">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="collapse show sidebar bg-white" id="sidebar">
+
+      <div class="sidebar-content">
+
+        <a href="#" class="side-link active">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-brands fa-youtube"></i>
+          <span>Shorts</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-clapperboard"></i>
+          <span>Subscriptions</span>
+        </a>
+
+        <hr>
+
+        <a href="#" class="side-link">
+          <span>You</span>
+          <i class="fa-solid fa-chevron-right ms-1"></i>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          <span>History</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-list"></i>
+          <span>Playlists</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-regular fa-clock"></i>
+          <span>Watch later</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <span>Liked videos</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-download"></i>
+          <span>Downloads</span>
+        </a>
+
+        <hr>
+
+        <p class="fw-bold px-3">Explore</p>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-music"></i>
+          <span>Music</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-gamepad"></i>
+          <span>Gaming</span>
+        </a>
+
+        <a href="#" class="side-link">
+          <i class="fa-solid fa-podcast"></i>
+          <span>Podcasts</span>
+        </a>
+
+      </div>
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content flex-grow-1 p-4">
+      <h4>Home</h4>
+      <p>Your videos will appear here.</p>
+    </main>
+
+  </div>
+
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```

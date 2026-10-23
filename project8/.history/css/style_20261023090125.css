@@ -1,0 +1,225 @@
+```css
+body {
+    margin: 0;
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Top navbar */
+.top-navbar {
+    height: 64px;
+    background: #0f0f0f;
+    padding: 8px 16px;
+    border-bottom: 1px solid #272727;
+    z-index: 1050;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+/* YouTube logo */
+.navbar-brand {
+    flex-shrink: 0;
+}
+
+/* Search box */
+.search-box {
+    width: min(40%, 600px);
+    min-width: 100px;
+}
+
+.search-box .form-control {
+    height: 44px;
+    border-radius: 25px 0 0 25px;
+    background: #121212;
+    color: white;
+    border: 1px solid #303030;
+    padding-left: 18px;
+}
+
+.search-box .form-control::placeholder {
+    color: #aaa;
+}
+
+.search-btn {
+    width: 72px;
+    border-radius: 0 25px 25px 0;
+    background: #222;
+    color: white;
+    border: 1px solid #303030;
+    font-size: 20px;
+}
+
+.round-btn {
+    border: none;
+    background: #222;
+    color: white;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.create-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #272727;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 25px;
+    white-space: nowrap;
+}
+
+.create-btn:hover,
+.round-btn:hover {
+    background: #3a3a3a;
+    color: white;
+}
+
+.top-icon {
+    color: white;
+    font-size: 23px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5969c9;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+/* Left sidebar */
+.sidebar {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    bottom: 0;
+    width: 255px;
+    background: #0f0f0f;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1040;
+}
+
+/* Keep sidebar scrollable */
+.sidebar-inner {
+    padding: 8px 12px 20px;
+}
+
+.sidebar hr {
+    border-color: #444;
+    margin: 12px 0;
+}
+
+.side-link {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 44px;
+    padding: 0 12px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.side-link i {
+    width: 20px;
+    font-size: 21px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.side-link:hover {
+    background: #272727;
+    color: white;
+}
+
+.side-link.active {
+    background: #272727;
+    font-weight: bold;
+}
+
+.sidebar-heading {
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-bottom: 4px;
+}
+
+.youtube-red {
+    color: #ff0033;
+}
+
+.sidebar-footer {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 1.6;
+    padding: 10px 12px;
+}
+
+/* Main content starts after the sidebar */
+.main-content {
+    margin-left: 255px;
+    padding-top: 64px;
+    min-height: 100vh;
+}
+
+/* Responsive layout */
+@media (max-width: 767px) {
+    .top-navbar {
+        padding: 8px;
+    }
+
+    .navbar-brand {
+        margin-right: 8px !important;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .search-box {
+        width: auto;
+        flex: 1;
+    }
+
+    .search-btn {
+        width: 42px;
+    }
+
+    .mic-btn,
+    .create-btn span {
+        display: none;
+    }
+
+    .create-btn {
+        margin-left: 8px !important;
+        padding: 10px;
+    }
+
+    .top-icon {
+        margin-left: 12px !important;
+    }
+
+    .profile {
+        margin-left: 12px !important;
+    }
+}
+```

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Navbar</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Macondo&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+CA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Macondo&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+CA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&family=Tektur:wght@400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+<!--font link  -->
+<!-- icon link -->
+  <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- icon link -->
+</head>
+
+<body>
+
+<!-- TOP NAVBAR -->
+<nav class="navbar top-navbar fixed-top">
+  <div class="container-fluid flex-nowrap">
+
+    <!-- Toggle button first -->
+    <button class="navbar-toggler border-0 me-3" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarToggleExternalContent"
+      aria-controls="navbarToggleExternalContent"
+      aria-expanded="true"
+      aria-label="Toggle sidebar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- YouTube logo -->
+    <a class="navbar-brand d-flex align-items-center me-4" href="#">
+      <img src="images/y1.png" alt="YouTube" height="35"> <h5 class="fw-bold" style="color: white;">YouTube</h5>
+    </a>
+
+    <!-- Search -->
+    <form class="search-box d-flex mx-auto" role="search">
+      <input class="form-control" type="search"
+        placeholder="Search" aria-label="Search">
+      <button class="btn search-btn" type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+
+    <!-- Microphone -->
+    <button class="round-btn mic-btn ms-3" aria-label="Microphone">
+      <i class="fa-solid fa-microphone"></i>
+    </button>
+
+    <!-- Create -->
+    <a href="#" class="create-btn ms-4">
+      <i class="fa-solid fa-plus"></i>
+      <span>Create</span>
+    </a>
+
+    <!-- Notifications -->
+    <a href="#" class="top-icon ms-4" aria-label="Notifications">
+      <i class="fa-regular fa-bell"></i>
+    </a>
+
+    <a href="#" class="profile ms-4" style="color:white"><i class="fa-regular fa-circle-user"></i></a>
+
+  </div>
+</nav>
+
+
+<!-- LEFT SIDEBAR -->
+<div class="collapse show sidebar" id="navbarToggleExternalContent">
+
+  <div class="sidebar-inner">
+
+    <a href="#" class="side-link active">
+      <i class="fa-solid fa-house"></i><span>Home</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-film"></i><span>Shorts</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-clapperboard"></i>
+      <span>Subscriptions</span>
+    </a>
+
+    <hr>
+
+    <a href="#" class="side-link">
+      <strong>You</strong>
+      <i class="fa-solid fa-chevron-right"></i>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-clock-rotate-left"></i>
+      <span>History</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-list"></i><span>Playlists</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-regular fa-clock"></i>
+      <span>Watch later</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-regular fa-thumbs-up"></i>
+      <span>Liked videos</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-regular fa-circle-play"></i>
+      <span>Your videos</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-download"></i>
+      <span>Downloads</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-graduation-cap"></i>
+      <span>Courses</span>
+    </a>
+
+    <hr>
+
+    <h6 class="sidebar-heading">Explore</h6>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-music"></i><span>Music</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-clapperboard"></i>
+      <span>Movies &amp; TV</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-tower-broadcast"></i>
+      <span>Live</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-solid fa-chevron-down"></i>
+      <span>Show more</span>
+    </a>
+
+    <hr>
+
+    <h6 class="sidebar-heading">More from YouTube</h6>
+
+    <a href="#" class="side-link">
+      <i class="fa-brands fa-youtube youtube-red"></i>
+      <span>YouTube Premium</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-brands fa-youtube youtube-red"></i>
+      <span>YouTube Music</span>
+    </a>
+
+    <a href="#" class="side-link">
+      <i class="fa-brands fa-youtube youtube-red"></i>
+      <span>YouTube Kids</span>
+    </a>
+
+    <hr>
+
+    <a href="#" class="side-link">
+      <i class="fa-regular fa-flag"></i>
+      <span>Report history</span>
+    </a>
+
+    <hr>
+
+    <div class="sidebar-footer">
+      About &nbsp; Press &nbsp; Copyright<br>
+      Contact us &nbsp; Creators<br>
+      Advertise &nbsp; Developers<br><br>
+      Terms &nbsp; Privacy<br>
+      Policy &amp; Safety<br>
+      How YouTube works<br>
+      Test new features
+
+      <p class="mt-4">© 2026 Google LLC</p>
+    </div>
+
+  </div>
+</div>
+
+
+<main class="main-content">
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card bgb">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h6 class="card-title">Create A Portfolio Website Using HTML and CSS Only - Easy Tutorial</h6>
+        <p class="card-text">Pro Coder
+1.5M
+2y ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bgb">
+        <a href="https://www.youtube.com/watch?v=-u3vE84Wo_U">
+<iframe width="450" height="315" src="https://www.youtube.com/embed/pA2pgVJZ6MU?si=VMU_0RX-lhJiSkTS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </a>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bgb">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
